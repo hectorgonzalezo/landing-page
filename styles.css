@@ -92,7 +92,8 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15vh;
+    gap: 10vh;
+    margin: 50px 50px
 }
 
 .project {
@@ -111,11 +112,20 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 30px 15vh;
+    min-width: 200px;
 }
 
 blockquote {
     font-size: 36px;
-    font-weight: light;
     font-style: italic;
-    color: #1F2937
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.name {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #1f2937;
 }
