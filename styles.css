@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 a {
@@ -16,13 +17,19 @@ a {
 
 .header,
 .links,
-.footer {
+.footer,
+.hero-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     color: white;
 }
+
+.top {
+    flex-direction: column;
+}
+
 
 .logo {
     font-size: 24px;
@@ -33,4 +40,40 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 15px;
+}
+
+.hero-container {
+    padding: 20px 40px;
+    gap: 25px;
+}
+
+.hero-container img {
+    max-width: 400px;
+    flex: 1;
+}
+
+
+.hero-text-div {
+    max-width: 400px;
+    min-width: 200px;
+    flex: 1;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7Eb
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 25px;
+    font-size: 15px;
 }
