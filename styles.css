@@ -18,7 +18,7 @@ a {
 .header,
 .links,
 .footer,
-.hero-container{
+.hero-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,8 +26,11 @@ a {
     color: white;
 }
 
-.top {
+.top,
+.random-container {
+    display: flex;
     flex-direction: column;
+
 }
 
 
@@ -76,4 +79,43 @@ button {
     border-radius: 5px;
     padding: 7px 25px;
     font-size: 15px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15vh;
+}
+
+.project {
+    max-width: 150px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: #3882F6; 
+    border-radius: 8px;
+}
+
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937
 }
